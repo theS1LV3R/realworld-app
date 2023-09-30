@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Roboto;
+    src: local('Roboto') local('Roboto Flex')
+      url('@/assets/fonts/roboto/Roboto.ttf') format('truetype');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), local('Montserrat Italic'),
+      url('@/assets/fonts/montserrat/montserrat.ttf') format('truetype'),
+      url('@/assets/fonts/montserrat/montserrat-italic.ttf') format('truetype');
+    font-display: swap;
+  }
+
+  body {
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Montserrat;
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-2xl mb-3;
+  }
+
+  h2 {
+    @apply text-xl mb-2;
+  }
+
+  h3 {
+    @apply text-lg mb-1;
+  }
+
+  h4 {
+    @apply my-1;
+  }
+}

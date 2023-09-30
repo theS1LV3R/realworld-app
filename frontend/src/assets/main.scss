@@ -1,0 +1,11 @@
+@import './tailwind';
+
+html,
+body,
+#app {
+  @apply h-full w-full m-0 p-0 overflow-auto;
+}
+
+* {
+  @apply box-border;
+}

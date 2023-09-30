@@ -1,0 +1,4 @@
+export enum STORE_IDS {
+  NOTES = 'NOTES',
+  PREFERENCES = 'PREFERENCES',
+}

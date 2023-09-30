@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "PNPM: start:debug",
+      "request": "launch",
+      "runtimeArgs": ["run", "start:debug"],
+      "runtimeExecutable": "~/.local/share/asdf/shims/pnpm",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "console": "integratedTerminal"
+    }
+  ]
+}
